@@ -4,11 +4,11 @@
 
 ## Important:
 
-From instalation this project, please run ```terminal yarn install``` and ```terminal yarn run dev```
+From instalation this project, please run ```$ yarn install``` and ```$ yarn run dev```
 
 ## VSCode Debug
 
-Running ```terminal yarn run debug```
+Running ```$ yarn run debug```
 
 <h1 align="center">
     <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
