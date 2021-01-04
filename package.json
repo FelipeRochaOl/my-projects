@@ -1,0 +1,17 @@
+{
+  "name": "my-projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Felipe Rocha",
+  "license": "MIT",
+  "scripts": {
+    "debug": "node index",
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
