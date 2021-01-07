@@ -1,6 +1,6 @@
 const express = require('express')
 const server = express()
-const port = process.env.port || 3000
+const port = process.env.port || 3333
 
 server.listen(port, () => console.log(`Server express listening port:${port}`))
 
@@ -42,12 +42,12 @@ server.post('/projects/:id/tasks', contRequest, validateProjectId, (req, res) =>
     const { title } = req.body
     projects[index].tasks.push(title)
 
-    return res.status(201).json({ 
-        message: `Inserted task from project ${projects[index].title}` 
+    return res.status(201).json({
+        message: `Inserted task from project ${projects[index].title}`
     })
 })
 
-server.put('/projects/:id', contRequest, validateProjectId,  (req, res) => {
+server.put('/projects/:id', contRequest, validateProjectId, (req, res) => {
     const { index } = req.params
     const { title } = req.body
     projects[index].title = title
